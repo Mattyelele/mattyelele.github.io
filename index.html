@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Mattyelele </title>
+        <link href="output.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <style>
+            body {
+                background-image: url("Assets/3416fc4113b69a0bf1cc75a772c4b5c4.gif")
+            }
+
+            .card {
+                top: 50%;
+                left: 50%;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                color: white;
+            }
+        </style>
+
+        <script>
+            function show(shown, hidden) {
+                var x = document.getElementById(shown).style.display='block';
+                var y = document.getElementById(hidden).style.display="none";
+                x.style.display='block';
+                y.style.display='none';
+                return false;
+            }
+        </script>
+    </head>
+    <body>
+        <div class="card max-w-ig bg-white shadow-lg rounded-lg overflow-hidden my-4">
+            <img class="w-full h-56 object-cover object-center" src="Assets/pfp.gif" alt="avatar">
+            <div class="flex items-center px-6 py-3 bg-gray-900">
+                <a target="_blank" href="https://twitter.com/Mattyelele"><span class="cursor-pointer tracking-wider text-white bg-blue-500 px-4 py-1 text-sm rounded leading-loose mx-2 font-semibold fab fa-twitter" title="twitter">
+                    @Mattyelele
+                </span></a>
+                <span class="tracking-wider text-white bg-purple-500 px-4 py-1 text-sm rounded leading-loose mx-2 font-semibold fab fa-discord" title="discord">
+                    Mattyelele#4917
+                </span>
+                <a target="_blank" href="https://github.com/Mattyelele"><span class="tracking-wider text-white bg-red-500 px-4 py-1 text-sm rounded leading-loose mx-2 font-semibold fab fa-github" title="github">
+                    Mattyelele
+                </span></a>
+            </div>
+            <div class="py-4 px-6">
+                <h1 class="text-2xl font-bold text-gray-800 text-center"> Mattyelele (Wang)</h1>
+                <p class="py-2 text-lg text-gray-700 text-center">Currently trying to get better at video editing & Coding</p>
+
+                <!--About Me Button-->
+                <div class="flex items-center justify-center">
+                    <div class="m-3">
+                        <button class="bg-white text-gray-800 font-bold rounded border-b-2 border-purple-500 hover:border-purple-600 hover:bg-purple-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
+                            <a href="#"><span class="mr-2">About Me</span></a>
+                        </button>
+                    </div>
+
+                    <!--Projects Button-->
+                <div class="flex items-center justify-center">
+                    <div class="m-3">
+                        <button class="bg-white text-gray-800 font-bold rounded border-b-2 border-blue-500 hover:border-blue-600 hover:bg-blue-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
+                            <a href="#"><span class="mr-2">Projects</span></a>
+                        </button>
+                    </div>
+
+                    <!--Socials Button-->
+                <div class="flex items-center justify-center">
+                    <div class="m-3">
+                        <button class="bg-white text-gray-800 font-bold rounded border-b-2 border-red-500 hover:border-red-600 hover:bg-red-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
+                            <a href="#"><span class="mr-2">Socials</span></a>
+                        </button>
+                    </div>
+                </div>
+				
+				<!-- Amazon whishlist-->
+				<div class="flex items-center justify-center">
+                    <div class="m-3">
+                        <button class="bg-white text-gray-800 font-bold rounded border-b-2 border-red-500 hover:border-red-600 hover:bg-red-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
+                            <a href="https://www.amazon.co.uk/gp/registry/wishlist/2M0R7FYZWZRJ8/ref=cm_wl_huc_view"><span class="mr-2">Socials</span></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="about" style="display:none" class="card max-w-ig bg-white shadow-lg rounded-lg overflow-hidden my-4">
+            <div class="flex items-center px-6 py-1 bg-gray-900">
+                
+            </div>
+        </div>
+    </body>
+</html> 
